@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>K's Portfolio</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="icon" href="images/favicon.ico">
+
+    <script
+      src="https://kit.fontawesome.com/418aae1497.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div id="header" data-aos="fade-up">
+      <div class="container">
+        <nav>
+          <a class="name" href="">Farhan</a>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#mywork">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="text">
+          <h1>Hey there! I'm <span class="myname">Farhan</span><br /></h1>
+          <div>
+            <h3><span class="auto-type"></span></h3>
+          </div>
+          <p class="brief">
+            This is my portfolio to showcase all my skills, qualifications, &
+            work.
+          </p>
+        </div>
+
+        <div class="sm-webpic">
+          <div>
+            <a href="KFarhan_resumewp.pdf" class="btn">Download CV</a>
+          </div>
+          <div class="sm">
+            <a href="https://www.linkedin.com/in/k-farhan" target="_blank"
+              ><i class="fa-brands fa-linkedin spic"></i
+            ></a>
+            <a href="https://github.com/kfarhan37" target="_blank">
+              <i class="fa-brands fa-github spic"></i
+            ></a>
+            <a href="https://twitter.com/FarhanKadu" target="_blank">
+              <i class="fa-brands fa-x-twitter spic"></i
+            ></a>
+          </div>
+          <div class="webpic">
+            <img class="webpic-img" src="/images/Webpic37.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--about-->
+    <div id="about" data-aos="fade-up">
+      <div class="container">
+        <div class="row">
+          <div class="aboutmain">
+            <h1 class="subtit">About Me</h1>
+            <p align="justify" class="about-info">
+              I am Farhan, an enthusiastic programmer, with a
+              specialization in web development & possessing a strong command of
+              Java. Currently pursuing a Bachelor's degree in CST-GPREC, I have
+              actively participated in various Web Development and Java
+              projects. I am consistently trying to build solutions of the highest quality. Take
+              a look at my portfolio to harness my skills, qualifications, and
+              projects and I am ready and eager to contribute to the success of
+              your projects as well.
+            </p>
+            <div class="tab-titles">
+              <p
+                class="tab-links activelink"
+                id="skills"
+                onclick="opentab('Skills')"
+              >
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('Certificates')">
+                Certificates
+              </p>
+              <p class="tab-links" onclick="opentab('Education')">Education</p>
+            </div>
+            <div class="tab-contents activetab" id="Skills">
+              <ul>
+                <li>
+                  <span>Programming</span><br />C | Java 
+                </li>
+                <li><span>Web Development</span><br />HTML | CSS | Javascript | Spring boot</li>
+
+                <li><span>Database</span><br />MySQL</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="Certificates">
+              <ul>
+                <li><span>Epam COE Certified</span><br />Core Java</li>
+                <li>
+                  <span>Internshala Certified </span><br />Web
+                  Development
+                </li>
+                <li>
+                  <span>Coursera Certified</span><br />English for Effective
+                  Business Speaking
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="Education">
+              <ul>
+                <li>
+                  <span>Engineering</span><br />G Pulla Reddy Engineering
+                  College | Kurnool - 2024 <br />8.62/10 - CGPA
+                </li>
+                <li>
+                  <span>Intermediate</span><br />Sri Chaitanya Jr College |
+                  Kurnool - 2020 <br />9.83/10 - CGPA
+                </li>
+                <li>
+                  <span>School</span><br />St. Josephs English School (CBSE) |
+                  Kurnool - 2018 <br />433/500 - Marks
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--services-->
+    <div id="services" data-aos="fade-up">
+      <div class="container">
+        <h1 class="subtit">Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Programming</h2>
+            <p align="justify">
+              Proficient in Java programming with a good grasp of
+              object-oriented concepts and a good knowledge on Springboot.
+            </p>
+          </div>
+          <div>
+            <i class="fa-sharp fa-solid fa-file-code"></i>
+            <h2>Web Development</h2>
+            <p align="justify">
+              Experienced in Web D with experience on Front-end technologies like HTML, CSS, and
+              JavaScript & React, creating interactive user interfaces. Proficiently
+              skilling up with Springboot to build scalable and
+              server-side applications.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--mywork-->
+    <div id="mywork" data-aos="fade-up">
+      <div class="container">
+        <h1 class="subtit">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="/images/WeatherWork1.png" alt="" />
+            <div class="layer">
+              <h3>Weather Forecast Website</h3>
+              <p>Web Development Project</p>
+              <a href="https://weather37.netlify.app/" target="_blank"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/BookStore2.png" alt="" />
+            <div class="layer">
+              <h3>Book Store Management System</h3>
+              <p>Springboot Project</p>
+              <a
+                href="https://github.com/kfarhan37/BookStoreManagementSystem-Springboot"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--contact-->
+
+    <div id="contact" data-aos="fade-up">
+      <div class="container">
+        <div class="c">
+          <div class="contact-left">
+            <h1 class="subtit">Contact Me</h1>
+            
+            <p><i class="fa-solid fa-envelope"></i><a href="mailto:kadufarhan2003@gmail.com">kadufarhan2003@gmail.com</a></p>
+            <p><i class="fa-solid fa-phone"></i>6305656162</p>
+            <p><i class="fa-brands fa-whatsapp"></i><a href="https://api.whatsapp.com/send/?phone=%2B916305656162&text&type=phone_number&app_absent=0" target="_blank">
+              Whatsapp</a> 
+            </p>
+
+          </div>
+
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button class="sub" type="submit" name="submit">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer">
+      <h2 class="footer-text">Built By K Farhan</h2>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+    />
+
+    <script>
+      AOS.init({
+        duration: 800,
+        once: false,
+      });
+    </script>
+  </body>
+</html>
